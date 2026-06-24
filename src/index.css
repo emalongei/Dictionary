@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Dark Mode Palette (Default) */
+  --bg-primary: #0b0c10;
+  --bg-secondary: #1f2833;
+  --bg-glass: rgba(31, 40, 51, 0.45);
+  --bg-glass-hover: rgba(31, 40, 51, 0.7);
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --border-glass-active: rgba(139, 92, 246, 0.4);
+  
+  --text-primary: #f3f4f6;
+  --text-muted: #9ca3af;
+  --text-dark: #111827;
+  
+  --color-primary: #8b5cf6;     /* Violet */
+  --color-primary-glow: rgba(139, 92, 246, 0.35);
+  --color-secondary: #06b6d4;   /* Cyan */
+  --color-accent: #f59e0b;      /* Amber */
+  --color-danger: #ef4444;      /* Red */
+  --color-success: #10b981;     /* Emerald */
+  
+  --font-sans: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-meitei: 'Noto Sans Meetei Mayek', 'Outfit', system-ui, sans-serif;
+  --shadow-premium: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --border-radius-lg: 16px;
+  --border-radius-md: 10px;
+  --border-radius-sm: 6px;
+}
+
+:root.light-mode {
+  /* Light Mode Palette */
+  --bg-primary: #f3f4f6;
+  --bg-secondary: #ffffff;
+  --bg-glass: rgba(255, 255, 255, 0.65);
+  --bg-glass-hover: rgba(255, 255, 255, 0.85);
+  --border-glass: rgba(0, 0, 0, 0.08);
+  --border-glass-active: rgba(139, 92, 246, 0.6);
+  
+  --text-primary: #1f2937;
+  --text-muted: #6b7280;
+  --text-dark: #f9fafb;
+  
+  --color-primary: #6d28d9;
+  --color-primary-glow: rgba(109, 40, 217, 0.2);
+  --color-secondary: #0891b2;
+  --color-accent: #d97706;
+  
+  --shadow-premium: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  line-height: 1.5;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-secondary);
+  border-radius: 4px;
+  border: 1px solid var(--border-glass);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* Common helper animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glow {
+  0%, 100% { text-shadow: 0 0 10px var(--color-primary-glow), 0 0 20px var(--color-primary-glow); }
+  50% { text-shadow: 0 0 15px var(--color-primary-glow), 0 0 30px var(--color-primary-glow); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.animate-glow {
+  animation: glow 3s infinite ease-in-out;
+}
