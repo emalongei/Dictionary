@@ -355,10 +355,10 @@ export const dictionary = [
     },
     breakdown: [
       { char: 'ꯆ', name: 'Chil', type: 'Mapung Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯤ', name: 'EEnap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯟ', name: 'Na Lonsum', type: 'Lonsum Iyek (Final Consonant /n/)' },
-      { char: 'ꯖ', name: 'Ja', type: 'Extended Iyek' },
-      { char: 'ꯥ', name: 'Aa-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯖ', name: 'Jil', type: 'Extended Iyek' },
+      { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯛ', name: 'Kok Lonsum', type: 'Lonsum Iyek (Final Consonant /k/)' }
     ]
   },
@@ -436,7 +436,7 @@ export const dictionary = [
     breakdown: [
       { char: 'ꯑ', name: 'Atiya', type: 'Mapung Iyek' },
       { char: 'ꯃ', name: 'Mit', type: 'Mapung Iyek' },
-      { char: 'ꯥ', name: 'Aa-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -456,7 +456,7 @@ export const dictionary = [
     breakdown: [
       { char: 'ꯑ', name: 'Atiya', type: 'Mapung Iyek' },
       { char: 'ꯅ', name: 'Na', type: 'Mapung Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {

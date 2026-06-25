@@ -126,7 +126,71 @@ export const mapungIyek = [
     meaning: 'Sky / Space',
     ipa: '/ə.ti.ja/',
     description: 'Represents the sky or space. The only primary letter not named after a physical body part, symbolizing the cosmic context of life.'
-  }
+  },
+  {
+    character: 'ꯒ',
+    name: 'Gok',
+    meaning: ' / ',
+    ipa: '/gok/',
+    description: ''
+  
+  },
+  {
+    character: 'ꯓ',
+    name: 'Jham',
+    meaning: ' / ',
+    ipa: '/jham/',
+    description: ''
+  },
+  {
+    character: 'ꯔ',
+    name: 'Rai',
+    meaning: '/',
+    ipa: '/rai/',
+    description: ''
+  },
+  {
+    character: 'ꯕ',
+    name: 'Ba',
+    meaning: '/',
+    ipa: '/ba/',
+    description: ''
+  },
+  {
+    character: 'ꯖ',
+    name: '   Jil',
+    meaning: '/',
+    ipa: '/jil/',
+    description: ''
+  },
+  {
+    character: 'ꯗ',
+    name: 'Dil',
+    meaning: '/',
+    ipa: '/dil/',
+    description: ''
+  },
+  {
+    character: 'ꯘ',
+    name: 'Ghou',
+    meaning: ' / ',
+    ipa: '/ghou/',
+    description: ''
+  },
+  {
+    character: 'ꯙ',
+    name: 'Dhou',
+    meaning: '/',
+    ipa: '/dhou/',
+    description: ''
+  },
+  {
+    character: 'ꯚ',
+    name: 'Bham',
+    meaning: '/',
+    ipa: '/bham/',
+    description: ''
+  },
 ];
 
 export const lonsumIyek = [
@@ -137,7 +201,7 @@ export const lonsumIyek = [
   { character: 'ꯟ', name: 'Na Lonsum', sound: 'n', mapsTo: 'ꯅ', description: 'Final consonant form of Na, representing the /n/ sound at the end of a syllable.' },
   { character: 'ꯠ', name: 'Til Lonsum', sound: 't', mapsTo: 'ꯇ', description: 'Final consonant form of Til, representing the /t/ sound at the end of a syllable.' },
   { character: 'ꯡ', name: 'Ngou Lonsum', sound: 'ng', mapsTo: 'ꯉ', description: 'Final consonant form of Ngou, representing the nasal /ŋ/ sound at the end of a syllable.' },
-  { character: 'ꯧ', name: 'Ee Lonsum', sound: 'i/o', mapsTo: 'ꯏ', description: 'Representing vowel offglide or final /i/ /o/ diphthong end (often transliterated as -u or -i).' }
+  { character: 'ꯏ', name: 'Ee Lonsum', sound: 'i', mapsTo: 'ꯏ', description: 'Representing vowel offglide or final /i/ /o/ diphthong end (often transliterated as -u or -i).' }
 ];
 
 export const cheitaps = [

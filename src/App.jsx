@@ -105,12 +105,33 @@ export default function App() {
 
   return (
     <div className="app-container">
-      {/* HEADER SECTION */}
+      {/* HEADER SECTION*/} 
       <header className="app-header">
-        <div className="brand-section">
-          <h1 className="brand-logo-text">ꯃꯩꯇꯩ ꯃꯌꯦꯛ</h1>
-          <span className="brand-subtext">Meitei Mayek Dict v1.0</span>
-        </div>
+
+  <div className="brand-section">
+
+    <div className="ema-logo-wrapper">
+
+      <h1 className="ema-logo">
+        ꯏꯃꯥ 
+      </h1>
+
+      <div className="ema-text">
+
+        <span className="ema-lab-name">
+          Emerging Multimedia
+        </span>
+
+        <span className="ema-lab-name">
+          & AI Lab IIT Dharwad
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
 
         <div className="header-controls">
           {/* Main Navigation Tabs */}
@@ -171,6 +192,29 @@ export default function App() {
           </button>
         </div>
       </header>
+
+      <section className="ema-hero">
+  <div className="ema-hero-content">
+
+    <h1>
+      Emerging Multimedia
+      <br />
+      & AI Lab
+    </h1>
+
+    <p>
+      Indian Institute of Technology Dharwad
+    </p>
+
+  </div>
+
+  <div className="dictionary-title">
+    (DICTIONARY)-ꯂꯣꯟꯒꯩ
+  </div>
+
+
+
+    </section>
 
       {/* MAIN BODY AREA */}
       <main className="main-content">
@@ -304,15 +348,6 @@ export default function App() {
 
       </main>
 
-      {/* FOOTER */}
-      <footer className="app-footer">
-        <p>© {new Date().getFullYear()} Meitei Mayek Script Dictionary. Designed for language learning & preservation.</p>
-        <div className="footer-links">
-          <a href="https://unicode.org/charts/PDF/UABC0.pdf" target="_blank" rel="noopener noreferrer">Unicode Chart</a>
-          <span>•</span>
-          <a href="https://en.wikipedia.org/wiki/Meitei_script" target="_blank" rel="noopener noreferrer">About Meitei Mayek</a>
-        </div>
-      </footer>
-    </div>
+     </div> 
   );
 }

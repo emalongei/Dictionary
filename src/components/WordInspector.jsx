@@ -177,7 +177,7 @@ export default function WordInspector({ word, onToggleBookmark, isBookmarked }) 
           ) : (
             <div className="char-hover-placeholder">
               <HelpCircle className="text-slate-500 mb-1" size={24} />
-              <p>Hover over characters above to see how this word is spelled phonetically, what each letter represents, and their anatomical connection.</p>
+              <p>Click a character to learn more about it.</p>
             </div>
           )}
         </div>
