@@ -1,26 +1,4 @@
 {
-  "name": "meitei-english-dictionary",
-  "version": "1.0.0",
-  "description": "A lightweight, bidirectional web dictionary built to preserve and search Meitei Lon definitions across multiple scripts (Meitei Mayek and Romanized Latin) alongside English.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ningthou29/Meitei-English-dictionary.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Ningthou29/Meitei-English-dictionary/issues"
-  },
-  "homepage": "https://github.com/Ningthou29/Meitei-English-dictionary#readme",
-  "dependencies": {
-    "express": "^5.2.1",
-    "mongodb": "^7.3.0"
   "name": "new-dictionary",
   "private": true,
   "version": "0.0.0",
@@ -32,15 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lucide-react": "^1.21.0",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "lucide-react": "^1.21.0"
   },
   "devDependencies": {
-    "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
-    "oxlint": "^1.69.0",
-    "vite": "^8.1.0"
+    "vite": "^8.1.0",
+    "oxlint": "^1.69.0"
   }
 }
