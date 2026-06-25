@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Keyboard, BookOpen, Trophy, Bookmark, Sun, Moon, Sparkles } from 'lucide-react';
-import { dictionary } from './data/dictionary';
+import { fetchEntries, searchEntries } from './api';
 
 // Import components
 import WordInspector from './components/WordInspector';
@@ -13,9 +13,11 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('search');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedWord, setSelectedWord] = useState(dictionary[0]);
+  const [selectedWord, setSelectedWord] = useState(null);
   const [bookmarks, setBookmarks] = useState([]);
   const [isDarkMode, setIsDarkMode] = useState(true);
+  const [dictionary, setDictionary] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   // Load bookmarks and theme from LocalStorage on mount
   useEffect(() => {
@@ -37,6 +39,28 @@ export default function App() {
       }
     }
   }, []);
+
+  useEffect(() => {
+  const loadDictionary = async () => {
+    try {
+      setLoading(true);
+      const data = await fetchEntries(0, 500); 
+      setDictionary(data);
+      if (data.length > 0) {
+        setSelectedWord(data[0]);
+      }
+    } catch (error) {
+      console.error('Error loading dictionary:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+  loadDictionary();
+}, []);
+
+
+
+
 
   // Sync bookmarks to LocalStorage
   const handleToggleBookmark = (word) => {
@@ -64,22 +88,22 @@ export default function App() {
   };
 
   // Handler for searching from virtual keyboard
-  const handleKeyboardSearch = (text) => {
-    setSearchQuery(text);
-    setSelectedCategory('All');
-    setActiveTab('search');
+  const handleKeyboardSearch = async (text) => {
+  setSearchQuery(text);
+  setSelectedCategory('All');
+  setActiveTab('search');
 
-    // Find the first word that starts with or contains the search string
-    const match = dictionary.find(
-      (w) =>
-        w.meitei.includes(text) ||
-        w.romanized.toLowerCase().includes(text.toLowerCase()) ||
-        w.english.toLowerCase().includes(text.toLowerCase())
-    );
-    if (match) {
-      setSelectedWord(match);
+  try {
+    const results = await searchEntries(text);
+    if (results && results.length > 0) {
+      setSelectedWord(results[0]);
+      // Also update the dictionary list to show search results
+      setDictionary(results);
     }
-  };
+  } catch (error) {
+    console.error('Search failed:', error);
+  }
+};
 
   // Filter dictionary based on search query & category filter
   const filteredWords = dictionary.filter((word) => {
@@ -101,7 +125,18 @@ export default function App() {
     } else if (filteredWords.length === 0) {
       setSelectedWord(null);
     }
-  }, [searchQuery, selectedCategory]);
+  }, [searchQuery, selectedCategory, filteredWords]);
+  
+  // Show loading spinner while fetching data
+  if (loading) {
+    return (
+      <div className="app-container">
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', fontSize: '1.5rem' }}>
+          Loading dictionary...
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="app-container">
@@ -239,11 +274,13 @@ export default function App() {
             </div>
 
             {/* Word details inspector panel */}
+            {selectedWord && (
             <WordInspector
               word={selectedWord}
               onToggleBookmark={handleToggleBookmark}
               isBookmarked={selectedWord ? bookmarks.includes(selectedWord.id) : false}
             />
+            )}
           </div>
         )}
 

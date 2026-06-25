@@ -1,5 +1,6 @@
 # main.py
 from fastapi import FastAPI, APIRouter, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from connection import collection
 import asyncio
 from typing import Any, List
@@ -8,6 +9,16 @@ from database.models import DictionaryEntryCreate, DictionaryEntryUpdate
 from bson import ObjectId
 
 app: FastAPI = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://localhost:3000"],  # React dev servers
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all methods (GET, POST, PUT, DELETE)
+    allow_headers=["*"],  # Allow all headers
+)
+
+
 router: APIRouter = APIRouter()
 
 #  GET all entries 
