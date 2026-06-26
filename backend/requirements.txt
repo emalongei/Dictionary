@@ -17,6 +17,6 @@ uvicorn[standard]==0.34.0
 pymongo==4.10.1
 dnspython==2.7.0
 python-dotenv==1.0.1
-pydantic==2.10.4
-pydantic-core==2.27.1
+pydantic
+pydantic-core
 python-multipart==0.0.20
