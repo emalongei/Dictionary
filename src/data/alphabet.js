@@ -146,7 +146,7 @@ export const mapungIyek = [
     character: 'ꯔ',
     name: 'Rai',
     meaning: '/',
-    ipa: '/rai/',
+    
     description: ''
   },
   {
@@ -211,7 +211,7 @@ export const cheitaps = [
   { character: 'ꯦ', name: 'yenap', sound: 'e', position: 'top', description: 'Vowel modifier added above a consonant, producing the /e/ sound.' },
   { character: 'ꯣ', name: 'Onap', sound: 'o', position: 'right and top', description: 'Vowel modifier added to the top and right, producing the /o/ sound.' },
   { character: 'ꯩ', name: 'Cheinap', sound: 'ei', position: 'top', description: 'Vowel modifier added above a consonant, producing the /ei/ diphthong.' },
-  { character: 'ꯧ', name: 'Sounap', sound: 'ou', position: 'right', description: 'Vowel modifier added to the right, producing the /ou/ diphthong.' },
+  { character: 'ꯧ', name: 'Ooonap', sound: 'ou', position: 'right', description: 'Vowel modifier added to the right, producing the /ou/ diphthong.' },
   { character: 'ꯪ', name: 'Nung', sound: 'nasalization (m/n)', position: 'top', description: 'Nasalization dot (anusvara) placed above a letter, representing nasal sound.' }
 ];
 
