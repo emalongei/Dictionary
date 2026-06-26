@@ -1,6 +1,41 @@
 import React, { useState, useEffect } from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 import { Search, Keyboard, BookOpen, Trophy, Bookmark, Sun, Moon, Sparkles } from 'lucide-react';
 import { fetchEntries, searchEntries } from './api';
+
+const originalFetch = window.fetch;
+window.fetch = function(...args) {
+  const url = args[0];
+  console.log('🔍 FETCH:', url);
+  
+  // If it's localhost:8000, show where it's coming from
+  if (typeof url === 'string' && url.includes('localhost:8000')) {
+    console.error('🚨 FOUND localhost:8000!');
+    console.error('URL:', url);
+    console.trace('📞 Stack trace:');
+  }
+  
+  return originalFetch.apply(this, args);
+};
+
+// Also check XMLHttpRequest
+const originalXHROpen = XMLHttpRequest.prototype.open;
+XMLHttpRequest.prototype.open = function(method, url, ...rest) {
+  console.log('🔍 XHR:', method, url);
+  if (typeof url === 'string' && url.includes('localhost:8000')) {
+    console.error('🚨 XHR to localhost:8000!');
+    console.trace('📞 Stack trace:');
+  }
+  return originalXHROpen.call(this, method, url, ...rest);
+};
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
 
 // Import components
 import WordInspector from './components/WordInspector';
