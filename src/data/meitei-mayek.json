@@ -1,0 +1,191 @@
+ [
+    {
+      "character": "ꯀ",
+      "name": "Kok",
+      "meaning": "Head",
+      "ipa": "/kok/",
+      "description": "Represents the head. It is the first letter of the alphabet and represents the source of knowledge and consciousness."
+    },
+    {
+      "character": "ꯁ",
+      "name": "Sam",
+      "meaning": "Hair",
+      "ipa": "/ʃəm/",
+      "description": "Represents hair. Symbolizes the covering and beauty of the head."
+    },
+    {
+      "character": "ꯂ",
+      "name": "Lai",
+      "meaning": "Forehead",
+      "ipa": "/ləi/",
+      "description": "Represents the forehead. Symbolizes destiny and intellect."
+    },
+    {
+      "character": "ꯃ",
+      "name": "Mit",
+      "meaning": "Eye",
+      "ipa": "/mit/",
+      "description": "Represents the eye. Symbolizes vision, perception, and observation."
+    },
+    {
+      "character": "ꯄ",
+      "name": "Pa",
+      "meaning": "Eyelash / Feather",
+      "ipa": "/pa/",
+      "description": "Represents the eyelash. Symbolizes protection of vision."
+    },
+    {
+      "character": "ꯅ",
+      "name": "Na",
+      "meaning": "Ear",
+      "ipa": "/na/",
+      "description": "Represents the ear. Symbolizes hearing and receptiveness."
+    },
+    {
+      "character": "ꯆ",
+      "name": "Chil",
+      "meaning": "Lips / Mouth",
+      "ipa": "/tʃil/",
+      "description": "Represents the lips or mouth. Symbolizes speech, communication, and expression."
+    },
+    {
+      "character": "ꯇ",
+      "name": "Til",
+      "meaning": "Saliva",
+      "ipa": "/til/",
+      "description": "Represents saliva. Symbolizes digestion and the chemical spark of life."
+    },
+    {
+      "character": "ꯈ",
+      "name": "Khou",
+      "meaning": "Throat / Palate",
+      "ipa": "/kʰəu/",
+      "description": "Represents the throat. Symbolizes the origin of voice and vocal sound production."
+    },
+    {
+      "character": "ꯉ",
+      "name": "Ngou",
+      "meaning": "Larynx / Pharynx",
+      "ipa": "/ŋəu/",
+      "description": "Represents the vocal throat passage. Associated with deep throat consonant sounds."
+    },
+    {
+      "character": "ꯊ",
+      "name": "Thou",
+      "meaning": "Chest",
+      "ipa": "/tʰəu/",
+      "description": "Represents the chest. Symbolizes courage, respiration, and the heart."
+    },
+    {
+      "character": "ꯋ",
+      "name": "Wai",
+      "meaning": "Navel",
+      "ipa": "/wai/",
+      "description": "Represents the navel. Symbolizes connection, birth, and origin."
+    },
+    {
+      "character": "ꯌ",
+      "name": "Yang",
+      "meaning": "Backbone",
+      "ipa": "/jaŋ/",
+      "description": "Represents the backbone or spine. Symbolizes strength, stability, and structure."
+    },
+    {
+      "character": "ꯍ",
+      "name": "Huk",
+      "meaning": "Lower Spine / Joints",
+      "ipa": "/huk/",
+      "description": "Represents the lower spine and joints. Symbolizes physical flexibility and movement."
+    },
+    {
+      "character": "ꯎ",
+      "name": "Un",
+      "meaning": "Skin",
+      "ipa": "/un/",
+      "description": "Represents the skin. Symbolizes the boundary of the body and sense of touch."
+    },
+    {
+      "character": "ꯏ",
+      "name": "Ee",
+      "meaning": "Blood",
+      "ipa": "/iː/",
+      "description": "Represents blood. Symbolizes the life force circulating through the body."
+    },
+    {
+      "character": "ꯐ",
+      "name": "Pham",
+      "meaning": "Placenta / Seat",
+      "ipa": "/pʰəm/",
+      "description": "Represents the placenta or seat. Symbolizes birth, nurturing, and station in life."
+    },
+    {
+      "character": "ꯑ",
+      "name": "Atiya",
+      "meaning": "Sky / Space",
+      "ipa": "/ə.ti.ja/",
+      "description": "Represents the sky or space. The only primary letter not named after a physical body part, symbolizing the cosmic context of life."
+    },
+    {
+      "character": "ꯒ",
+      "name": "Gok",
+      "meaning": " / ",
+      "ipa": "/gok/",
+      "description": ""
+    },
+    {
+      "character": "ꯓ",
+      "name": "Jham",
+      "meaning": " / ",
+      "ipa": "/jham/",
+      "description": ""
+    },
+    {
+      "character": "ꯔ",
+      "name": "Rai",
+      "meaning": "/",
+      "ipa": "/rai/",
+      "description": ""
+    },
+    {
+      "character": "ꯕ",
+      "name": "Ba",
+      "meaning": "/",
+      "ipa": "/ba/",
+      "description": ""
+    },
+    {
+      "character": "ꯖ",
+      "name": "   Jil",
+      "meaning": "/",
+      "ipa": "/jil/",
+      "description": ""
+    },
+    {
+      "character": "ꯗ",
+      "name": "Dil",
+      "meaning": "/",
+      "ipa": "/dil/",
+      "description": ""
+    },
+    {
+      "character": "ꯘ",
+      "name": "Ghou",
+      "meaning": " / ",
+      "ipa": "/ghou/",
+      "description": ""
+    },
+    {
+      "character": "ꯙ",
+      "name": "Dhou",
+      "meaning": "/",
+      "ipa": "/dhou/",
+      "description": ""
+    },
+    {
+      "character": "ꯚ",
+      "name": "Bham",
+      "meaning": "/",
+      "ipa": "/bham/",
+      "description": ""
+    }
+  ]

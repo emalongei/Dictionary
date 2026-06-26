@@ -1,0 +1,58 @@
+[
+    {
+      "character": "ꯛ",
+      "name": "Kok Lonsum",
+      "sound": "k",
+      "mapsTo": "ꯀ",
+      "description": "Final consonant form of Kok, representing the /k/ sound at the end of a syllable."
+    },
+    {
+      "character": "ꯜ",
+      "name": "Lai Lonsum",
+      "sound": "l",
+      "mapsTo": "ꯂ",
+      "description": "Final consonant form of Lai, representing the /l/ sound at the end of a syllable."
+    },
+    {
+      "character": "ꯝ",
+      "name": "Mit Lonsum",
+      "sound": "m",
+      "mapsTo": "ꯃ",
+      "description": "Final consonant form of Mit, representing the /m/ sound at the end of a syllable."
+    },
+    {
+      "character": "ꯞ",
+      "name": "Pa Lonsum",
+      "sound": "p",
+      "mapsTo": "ꯄ",
+      "description": "Final consonant form of Pa, representing the /p/ sound at the end of a syllable."
+    },
+    {
+      "character": "ꯟ",
+      "name": "Na Lonsum",
+      "sound": "n",
+      "mapsTo": "ꯅ",
+      "description": "Final consonant form of Na, representing the /n/ sound at the end of a syllable."
+    },
+    {
+      "character": "ꯠ",
+      "name": "Til Lonsum",
+      "sound": "t",
+      "mapsTo": "ꯇ",
+      "description": "Final consonant form of Til, representing the /t/ sound at the end of a syllable."
+    },
+    {
+      "character": "ꯡ",
+      "name": "Ngou Lonsum",
+      "sound": "ng",
+      "mapsTo": "ꯉ",
+      "description": "Final consonant form of Ngou, representing the nasal /ŋ/ sound at the end of a syllable."
+    },
+    {
+      "character": "ꯏ",
+      "name": "Ee Lonsum",
+      "sound": "i",
+      "mapsTo": "ꯏ",
+      "description": "Representing vowel offglide or final /i/ /o/ diphthong end (often transliterated as -u or -i)."
+    }
+  ]
