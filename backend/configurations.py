@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from typing import Type, Any
 load_dotenv()
+print("MONGODB_URI =", os.getenv("MONGODB_URI"))
 class Settings:
     MONGODB_URI:str = os.environ.get('MONGODB_URI','mongodb://localhost:27017/default_db')
     DB_NAME:str = os.environ.get('DATABASE_NAME', 'Dictionary')
