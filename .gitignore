@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 jinita/
 node_modules/
+backend/.env
 
 # C extensions
 *.so
@@ -158,6 +159,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+backend/venv/
+jinita/
 
 # Spyder project settings
 .spyderproject
