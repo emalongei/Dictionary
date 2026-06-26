@@ -1,5 +1,5 @@
 // src/api.js
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+const API_BASE_URL = process.env.VITE_API_URL;
 
 // Fetch all entries with pagination
 // src/api.js
