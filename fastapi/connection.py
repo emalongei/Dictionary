@@ -3,7 +3,6 @@ from typing import Any
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi          # ⬅️ Import the Collection type
 from configurations import settings
-from configurations import settings   # ⬅️ Import from configurations.py
 
 # Now use the settings from that file
 client: MongoClient[dict[str, Any]] = MongoClient(
