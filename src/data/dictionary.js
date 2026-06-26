@@ -16,14 +16,14 @@ export const dictionary = [
       meitei: 'ꯈꯨꯔꯨꯝꯖꯔꯤ, ꯀꝗꯗꯧꯕꯤꯔꯤ?'
     },
     breakdown: [
-      { char: 'ꯈ', name: 'Khou', type: 'Mapung Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯈ', name: 'Khou', type: 'Mapum mayek' },
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯃ', name: 'Mit', type: 'Mapung Iyek' },
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
       { char: 'ꯖ', name: 'Ja', type: 'Extended Iyek' },
       { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -41,13 +41,13 @@ export const dictionary = [
       meitei: 'ꯃꯇꯦꯡ ꯄꯥꯡꯕꯒꯤꯗꯃꯛ ꯌꯥꯝꯅ ꯊꯥꯒꯠꯆꯔꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯊ', name: 'Thou', type: 'Mapung Iyek' },
-      { char: 'ꯥ', name: 'Aa-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯊ', name: 'Thou', type: 'Mapum mayek' },
+      { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯒ', name: 'Gok (voiced)', type: 'Extended Iyek' },
       { char: 'ꯠ', name: 'Til Lonsum', type: 'Lonsum Iyek (Final Consonant /t/)' },
-      { char: 'ꯆ', name: 'Chil', type: 'Mapung Iyek' },
+      { char: 'ꯆ', name: 'Chil', type: 'Mapum mayek' },
       { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -65,9 +65,9 @@ export const dictionary = [
       meitei: 'ꯍꯣꯏ, ꯑꯗꯨꯝ ꯑꯆꯨꯝꯕꯅꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯍ', name: 'Huk', type: 'Mapung Iyek' },
-      { char: 'ꯣ', name: 'O-cheitap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯏ', name: 'Ee', type: 'Mapung Iyek' }
+      { char: 'ꯍ', name: 'Huk', type: 'Mapum mayek' },
+      { char: 'ꯣ', name: 'Onap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯏ', name: 'Ee', type: 'Mapum mayek' }
     ]
   },
   {
@@ -85,10 +85,10 @@ export const dictionary = [
       meitei: 'ꯅꯠꯇꯦ, ꯑꯩ ꯆꯠꯈꯤꯍꯧꯗ꯭ꯔꯦ꯫'
     },
     breakdown: [
-      { char: 'ꯅ', name: 'Na', type: 'Mapung Iyek' },
+      { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
       { char: 'ꯠ', name: 'Til Lonsum', type: 'Lonsum Iyek (Final Consonant /t/)' },
-      { char: 'ꯇ', name: 'Til', type: 'Mapung Iyek' },
-      { char: 'ꯦ', name: 'E-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯇ', name: 'Til', type: 'Mapum mayek' },
+      { char: 'ꯦ', name: 'yenap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -106,10 +106,10 @@ export const dictionary = [
       meitei: 'ꯃꯍꯥꯛ ꯑꯩꯒꯤ ꯈ꯭ꯋꯥꯏꯗꯦꯒꯤ ꯅꯨꯡꯁꯤꯕ ꯃꯔꯨꯄꯅꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯃ', name: 'Mit', type: 'Mapung Iyek' },
+      { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
       { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯄ', name: 'Pa', type: 'Mapung Iyek' }
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯄ', name: 'Pa', type: 'Mapum mayek' }
     ]
   },
   {
@@ -127,9 +127,9 @@ export const dictionary = [
       meitei: 'ꯂꯩ ꯑꯁꯤ ꯌꯥꯝꯅ ꯐꯖꯩ꯫'
     },
     breakdown: [
-      { char: 'ꯐ', name: 'Pham', type: 'Mapung Iyek' },
+      { char: 'ꯐ', name: 'Pham', type: 'Mapum mayek' },
       { char: 'ꯖ', name: 'Ja', type: 'Extended Iyek' },
-      { char: 'ꯩ', name: 'Ei-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯩ', name: 'Cheinap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -147,11 +147,11 @@ export const dictionary = [
       meitei: 'ꯑꯩ ꯃꯅꯤꯄꯨꯔ ꯅꯨꯡꯁꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯅ', name: 'Na', type: 'Mapung Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯡ', name: 'Ngou Lonsum', type: 'Lonsum Iyek (Final Consonant /ng/)' },
-      { char: 'ꯁ', name: 'Sam', type: 'Mapung Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯁ', name: 'Sam', type: 'Mapum mayek' },
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -169,9 +169,9 @@ export const dictionary = [
       meitei: 'ꯊꯛꯅꯕ ꯏꯁꯤꯡ ꯈꯔꯥ ꯊꯥꯕꯤꯌꯨ꯫'
     },
     breakdown: [
-      { char: 'ꯏ', name: 'Ee', type: 'Mapung Iyek' },
-      { char: 'ꯁ', name: 'Sam', type: 'Mapung Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯏ', name: 'Ee', type: 'Mapum mayek' },
+      { char: 'ꯁ', name: 'Sam', type: 'Mapum mayek' },
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯡ', name: 'Ngou Lonsum', type: 'Lonsum Iyek (Final Consonant /ng/)' }
     ]
   },
@@ -190,8 +190,8 @@ export const dictionary = [
       meitei: 'ꯃꯩ ꯑꯁꯤ ꯌꯥꯝꯅ ꯑꯁꯥꯎꯕꯅꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯃ', name: 'Mit', type: 'Mapung Iyek' },
-      { char: 'ꯩ', name: 'Ei-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
+      { char: 'ꯩ', name: 'Cheinap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -209,10 +209,10 @@ export const dictionary = [
       meitei: 'ꯅꯨꯃꯤꯠ ꯅꯣꯡꯄꯣꯛꯇ ꯊꯣꯛꯏ꯫'
     },
     breakdown: [
-      { char: 'ꯅ', name: 'Na', type: 'Mapung Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯃ', name: 'Mit', type: 'Mapung Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯠ', name: 'Til Lonsum', type: 'Lonsum Iyek (Final Consonant /t/)' }
     ]
   },
@@ -231,8 +231,8 @@ export const dictionary = [
       meitei: 'ꯉꯥꯁꯤꯒꯤ ꯊꯥꯍꯟꯕ ꯌꯥꯝꯅ ꯃꯉꯥꯜ ꯆꯩ꯫'
     },
     breakdown: [
-      { char: 'ꯊ', name: 'Thou', type: 'Mapung Iyek' },
-      { char: 'ꯥ', name: 'Aa-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯊ', name: 'Thou', type: 'Mapum mayek' },
+      { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -250,10 +250,10 @@ export const dictionary = [
       meitei: 'ꯅꯨꯄꯥ ꯑꯗꯨ ꯗꯥꯛꯇꯔ ꯑꯃꯅꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯅ', name: 'Na', type: 'Mapung Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯄ', name: 'Pa', type: 'Mapung Iyek' },
-      { char: 'ꯥ', name: 'Aa-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯄ', name: 'Pa', type: 'Mapum mayek' },
+      { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -271,10 +271,10 @@ export const dictionary = [
       meitei: 'ꯃꯍꯥꯛ ꯌꯥꯝꯅ ꯍꯣꯠꯅꯕ ꯅꯨꯄꯤꯅꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯅ', name: 'Na', type: 'Mapung Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯄ', name: 'Pa', type: 'Mapung Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯄ', name: 'Pa', type: 'Mapum mayek' },
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -292,10 +292,10 @@ export const dictionary = [
       meitei: 'ꯏꯝꯐꯥꯜ ꯇꯨꯔꯦꯟ ꯁꯍꯔ ꯑꯁꯤꯒꯤ ꯃꯌꯣꯜꯗ ꯆꯦꯟꯏ꯫'
     },
     breakdown: [
-      { char: 'ꯇ', name: 'Til', type: 'Mapung Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯇ', name: 'Til', type: 'Mapum mayek' },
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
-      { char: 'ꯦ', name: 'E-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯦ', name: 'yenap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯟ', name: 'Na Lonsum', type: 'Lonsum Iyek (Final Consonant /n/)' }
     ]
   },
@@ -314,8 +314,8 @@ export const dictionary = [
       meitei: 'ꯃꯅꯤꯄꯨꯔ ꯒꯤ ꯆꯤꯡ ꯁꯤꯡꯌꯥꯝꯅ ꯐꯖꯩ꯫'
     },
     breakdown: [
-      { char: 'ꯆ', name: 'Chil', type: 'Mapung Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯆ', name: 'Chil', type: 'Mapum mayek' },
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯡ', name: 'Ngou Lonsum', type: 'Lonsum Iyek (Final Consonant /ng/)' }
     ]
   },
@@ -334,8 +334,8 @@ export const dictionary = [
       meitei: 'ꯑꯁꯤ ꯑꯩꯒꯤ ꯌꯨꯝꯅꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯌ', name: 'Yang', type: 'Mapung Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯌ', name: 'Yang', type: 'Mapum mayek' },
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯝ', name: 'Mit Lonsum', type: 'Lonsum Iyek (Final Consonant /m/)' }
     ]
   },
@@ -354,7 +354,7 @@ export const dictionary = [
       meitei: 'ꯑꯩꯈꯣꯏꯒꯤ ꯍꯥꯎꯀꯕ ꯆꯤꯟꯖꯥꯛ ꯆꯪꯏ꯫'
     },
     breakdown: [
-      { char: 'ꯆ', name: 'Chil', type: 'Mapung Iyek' },
+      { char: 'ꯆ', name: 'Chil', type: 'Mapum mayek' },
       { char: 'ꯤ', name: 'EEnap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯟ', name: 'Na Lonsum', type: 'Lonsum Iyek (Final Consonant /n/)' },
       { char: 'ꯖ', name: 'Jil', type: 'Extended Iyek' },
@@ -377,8 +377,8 @@ export const dictionary = [
       meitei: 'ꯂꯩꯀꯣꯜ ꯑꯁꯤꯗ ꯂꯩ ꯌꯥꯝꯅ ꯂꯩ꯫'
     },
     breakdown: [
-      { char: 'ꯂ', name: 'Lai', type: 'Mapung Iyek' },
-      { char: 'ꯩ', name: 'Ei-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯂ', name: 'Lai', type: 'Mapum mayek' },
+      { char: 'ꯩ', name: 'Cheinap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -396,8 +396,8 @@ export const dictionary = [
       meitei: 'ꯑꯩ ꯃꯍꯩꯔꯣꯏ ꯑꯃꯅꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯑ', name: 'Atiya', type: 'Mapung Iyek' },
-      { char: 'ꯩ', name: 'Ei-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
+      { char: 'ꯩ', name: 'Cheinap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -415,7 +415,7 @@ export const dictionary = [
       meitei: 'ꯅꯪ ꯀꯗꯥꯏꯗ ꯆꯠꯂꯤꯒꯦ?'
     },
     breakdown: [
-      { char: 'ꯅ', name: 'Na', type: 'Mapung Iyek' },
+      { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
       { char: 'ꯪ', name: 'Nung', type: 'Cheitap (Nasalization dot)' }
     ]
   },
@@ -434,8 +434,8 @@ export const dictionary = [
       meitei: 'ꯑꯩꯒꯤ ꯂꯥꯏꯔꯤꯛ ꯑꯃꯥ ꯄꯤꯌꯨ꯫'
     },
     breakdown: [
-      { char: 'ꯑ', name: 'Atiya', type: 'Mapung Iyek' },
-      { char: 'ꯃ', name: 'Mit', type: 'Mapung Iyek' },
+      { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
+      { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
       { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
@@ -454,8 +454,8 @@ export const dictionary = [
       meitei: 'ꯑꯩꯒꯤ ꯈꯨꯠꯂꯥꯏ ꯑꯅꯤ ꯂꯩ꯫'
     },
     breakdown: [
-      { char: 'ꯑ', name: 'Atiya', type: 'Mapung Iyek' },
-      { char: 'ꯅ', name: 'Na', type: 'Mapung Iyek' },
+      { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
+      { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
       { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
@@ -474,9 +474,9 @@ export const dictionary = [
       meitei: 'ꯑꯗꯨꯀꯣꯝ ꯑꯍꯨꯝ ꯂꯩ꯫'
     },
     breakdown: [
-      { char: 'ꯑ', name: 'Atiya', type: 'Mapung Iyek' },
-      { char: 'ꯍ', name: 'Huk', type: 'Mapung Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
+      { char: 'ꯍ', name: 'Huk', type: 'Mapum mayek' },
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯝ', name: 'Mit Lonsum', type: 'Lonsum Iyek (Final Consonant /m/)' }
     ]
   },
@@ -495,9 +495,9 @@ export const dictionary = [
       meitei: 'ꯀꯥ ꯑꯁꯤꯗ ꯆꯧꯀꯤ ꯃꯔꯤ ꯂꯩ꯫'
     },
     breakdown: [
-      { char: 'ꯃ', name: 'Mit', type: 'Mapung Iyek' },
+      { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
       { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -515,9 +515,9 @@ export const dictionary = [
       meitei: 'ꯈꯨꯠꯅꯤ ꯈꯨꯠꯌꯦꯟ ꯃꯉꯥ ꯂꯩ꯫'
     },
     breakdown: [
-      { char: 'ꯃ', name: 'Mit', type: 'Mapung Iyek' },
-      { char: 'ꯉ', name: 'Ngou', type: 'Mapung Iyek' },
-      { char: 'ꯥ', name: 'Aa-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
+      { char: 'ꯉ', name: 'Ngou', type: 'Mapum mayek' },
+      { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -535,9 +535,9 @@ export const dictionary = [
       meitei: 'ꯑꯩꯒꯤ ꯏꯃꯥ ꯆꯥꯛ ꯊꯣꯡꯂꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯏ', name: 'Ee', type: 'Mapung Iyek' },
-      { char: 'ꯃ', name: 'Mit', type: 'Mapung Iyek' },
-      { char: 'ꯥ', name: 'Aa-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯏ', name: 'Ee', type: 'Mapum mayek' },
+      { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
+      { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -555,9 +555,9 @@ export const dictionary = [
       meitei: 'ꯑꯩꯒꯤ ꯏꯄꯥ ꯑꯣꯖꯥ ꯑꯃꯅꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯏ', name: 'Ee', type: 'Mapung Iyek' },
-      { char: 'ꯄ', name: 'Pa', type: 'Mapung Iyek' },
-      { char: 'ꯥ', name: 'Aa-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯏ', name: 'Ee', type: 'Mapum mayek' },
+      { char: 'ꯄ', name: 'Pa', type: 'Mapum mayek' },
+      { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -575,11 +575,11 @@ export const dictionary = [
       meitei: 'ꯑꯇꯤꯌꯥ ꯑꯁꯤ ꯉꯥꯁꯤ ꯌꯥꯝꯅ ꯅꯤꯡꯁꯪꯏ꯫'
     },
     breakdown: [
-      { char: 'ꯑ', name: 'Atiya', type: 'Mapung Iyek' },
-      { char: 'ꯇ', name: 'Til', type: 'Mapung Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯌ', name: 'Yang', type: 'Mapung Iyek' },
-      { char: 'ꯥ', name: 'Aa-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
+      { char: 'ꯇ', name: 'Til', type: 'Mapum mayek' },
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯌ', name: 'Yang', type: 'Mapum mayek' },
+      { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
   {
@@ -597,11 +597,11 @@ export const dictionary = [
       meitei: 'ꯌꯤꯡꯕ ꯅꯨꯡꯁꯤꯠ ꯑꯃꯥ ꯊꯣꯡꯂꯤ꯫'
     },
     breakdown: [
-      { char: 'ꯅ', name: 'Na', type: 'Mapung Iyek' },
-      { char: 'ꯨ', name: 'U-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
+      { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯡ', name: 'Ngou Lonsum', type: 'Lonsum Iyek (Final Consonant /ng/)' },
-      { char: 'ꯁ', name: 'Sam', type: 'Mapung Iyek' },
-      { char: 'ꯤ', name: 'I-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯁ', name: 'Sam', type: 'Mapum mayek' },
+      { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯠ', name: 'Til Lonsum', type: 'Lonsum Iyek (Final Consonant /t/)' }
     ]
   },
@@ -620,10 +620,10 @@ export const dictionary = [
       meitei: 'ꯑꯩꯈꯣꯏꯒꯤ ꯑꯣꯖꯥꯅ ꯈꯪꯍꯟꯕ ꯌꯥꯝꯅ ꯐꯖꯩ꯫'
     },
     breakdown: [
-      { char: 'ꯑ', name: 'Atiya', type: 'Mapung Iyek' },
-      { char: 'ꯣ', name: 'O-cheitap', type: 'Cheitap (Vowel Modifier)' },
+      { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
+      { char: 'ꯣ', name: 'Onap', type: 'Cheitap (Vowel Modifier)' },
       { char: 'ꯖ', name: 'Ja', type: 'Extended Iyek' },
-      { char: 'ꯥ', name: 'Aa-cheitap', type: 'Cheitap (Vowel Modifier)' }
+      { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' }
     ]
   }
 ];

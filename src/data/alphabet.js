@@ -205,13 +205,13 @@ export const lonsumIyek = [
 ];
 
 export const cheitaps = [
-  { character: 'ꯥ', name: 'Aa-cheitap', sound: 'a / aa', position: 'right', description: 'Vowel modifier added to the right of a consonant, producing the /aː/ sound.' },
-  { character: 'ꯤ', name: 'I-cheitap', sound: 'i / ee', position: 'top', description: 'Vowel modifier added above a consonant, producing the /i/ sound.' },
-  { character: 'ꯨ', name: 'U-cheitap', sound: 'u / oo', position: 'bottom', description: 'Vowel modifier added below a consonant, producing the /u/ sound.' },
-  { character: 'ꯦ', name: 'E-cheitap', sound: 'e', position: 'top', description: 'Vowel modifier added above a consonant, producing the /e/ sound.' },
-  { character: 'ꯣ', name: 'O-cheitap', sound: 'o', position: 'right and top', description: 'Vowel modifier added to the top and right, producing the /o/ sound.' },
-  { character: 'ꯩ', name: 'Ei-cheitap', sound: 'ei', position: 'top', description: 'Vowel modifier added above a consonant, producing the /ei/ diphthong.' },
-  { character: 'ꯧ', name: 'Ou-cheitap', sound: 'ou', position: 'right', description: 'Vowel modifier added to the right, producing the /ou/ diphthong.' },
+  { character: 'ꯥ', name: 'Aatap', sound: 'a / aa', position: 'right', description: 'Vowel modifier added to the right of a consonant, producing the /aː/ sound.' },
+  { character: 'ꯤ', name: 'Inap', sound: 'i / ee', position: 'top', description: 'Vowel modifier added above a consonant, producing the /i/ sound.' },
+  { character: 'ꯨ', name: 'oonap', sound: 'u / oo', position: 'bottom', description: 'Vowel modifier added below a consonant, producing the /u/ sound.' },
+  { character: 'ꯦ', name: 'yenap', sound: 'e', position: 'top', description: 'Vowel modifier added above a consonant, producing the /e/ sound.' },
+  { character: 'ꯣ', name: 'Onap', sound: 'o', position: 'right and top', description: 'Vowel modifier added to the top and right, producing the /o/ sound.' },
+  { character: 'ꯩ', name: 'Cheinap', sound: 'ei', position: 'top', description: 'Vowel modifier added above a consonant, producing the /ei/ diphthong.' },
+  { character: 'ꯧ', name: 'Sounap', sound: 'ou', position: 'right', description: 'Vowel modifier added to the right, producing the /ou/ diphthong.' },
   { character: 'ꯪ', name: 'Nung', sound: 'nasalization (m/n)', position: 'top', description: 'Nasalization dot (anusvara) placed above a letter, representing nasal sound.' }
 ];
 

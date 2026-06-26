@@ -52,7 +52,7 @@ export default function AlphabetGuide() {
             className={`btn-nav-tab ${activeSection === 'mapung' ? 'active' : ''}`}
             onClick={() => { setActiveSection('mapung'); setSelectedLetter(mapungIyek[0]); }}
           >
-            Mapung Iyek (18 Core)
+            Mapum mayek (27 Core)
           </button>
           <button 
             className={`btn-nav-tab ${activeSection === 'lonsum' ? 'active' : ''}`}

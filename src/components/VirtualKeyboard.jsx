@@ -90,9 +90,9 @@ export default function VirtualKeyboard({ onSearch }) {
       {/* Keyboard Layout */}
       <div className="keyboard-grid-layout">
         
-        {/* Mapung Iyek Section */}
+        {/* Mapum mayek Section */}
         <div className="keyboard-section">
-          <h4 className="kbd-section-title">Mapung Iyek (Primary Letters)</h4>
+          <h4 className="kbd-section-title">Mapum mayek (Primary Letters)</h4>
           <div className="kbd-keys-grid">
             {mapungIyek.map((item) => (
               <button 

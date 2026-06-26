@@ -54,7 +54,7 @@ export default function Quiz() {
   // Generate question based on active mode
   const generateQuestion = (mode) => {
     if (mode === 'letters') {
-      // Pick a random letter from Mapung Iyek
+      // Pick a random letter from Mapum mayek
       const target = getRandomItems(mapungIyek, 1)[0];
       // Pick 3 distractors
       const distractors = mapungIyek

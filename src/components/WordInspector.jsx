@@ -34,9 +34,9 @@ export default function WordInspector({ word, onToggleBookmark, isBookmarked }) 
 
   // Helper to find letter information for the breakdown hover
   const getCharInfo = (char) => {
-    // Check Mapung Iyek
+    // Check Mapum mayek
     const mapung = mapungIyek.find(m => m.character === char);
-    if (mapung) return { ...mapung, type: 'Mapung Iyek (Primary Letter)' };
+    if (mapung) return { ...mapung, type: 'Mapum mayek (Primary Letter)' };
 
     // Check Lonsum
     const lonsum = lonsumIyek.find(l => l.character === char);
