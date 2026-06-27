@@ -1,7 +1,5 @@
 // src/api.js
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-
-console.log('📡 API_BASE_URL:', API_BASE_URL);
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 // Fetch all entries with pagination
 export const fetchEntries = async (skip = 0, limit = 100) => {
