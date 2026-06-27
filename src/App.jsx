@@ -1,41 +1,7 @@
+// src/App.jsx
 import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import { Search, Keyboard, BookOpen, Trophy, Bookmark, Sun, Moon, Sparkles } from 'lucide-react';
+import { Search, Keyboard, BookOpen, Trophy, Bookmark, Sun, Moon } from 'lucide-react';
 import { fetchEntries, searchEntries } from './api';
-
-const originalFetch = window.fetch;
-window.fetch = function(...args) {
-  const url = args[0];
-  console.log('🔍 FETCH:', url);
-  
-  // If it's localhost:8000, show where it's coming from
-  if (typeof url === 'string' && url.includes('localhost:8000')) {
-    console.error('🚨 FOUND localhost:8000!');
-    console.error('URL:', url);
-    console.trace('📞 Stack trace:');
-  }
-  
-  return originalFetch.apply(this, args);
-};
-
-// Also check XMLHttpRequest
-const originalXHROpen = XMLHttpRequest.prototype.open;
-XMLHttpRequest.prototype.open = function(method, url, ...rest) {
-  console.log('🔍 XHR:', method, url);
-  if (typeof url === 'string' && url.includes('localhost:8000')) {
-    console.error('🚨 XHR to localhost:8000!');
-    console.trace('📞 Stack trace:');
-  }
-  return originalXHROpen.call(this, method, url, ...rest);
-};
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
 
 // Import components
 import WordInspector from './components/WordInspector';
@@ -75,27 +41,24 @@ export default function App() {
     }
   }, []);
 
+  // Load dictionary
   useEffect(() => {
-  const loadDictionary = async () => {
-    try {
-      setLoading(true);
-      const data = await fetchEntries(0, 500); 
-      setDictionary(data);
-      if (data.length > 0) {
-        setSelectedWord(data[0]);
+    const loadDictionary = async () => {
+      try {
+        setLoading(true);
+        const data = await fetchEntries(0, 500);
+        setDictionary(data);
+        if (data.length > 0) {
+          setSelectedWord(data[0]);
+        }
+      } catch (error) {
+        console.error('Error loading dictionary:', error);
+      } finally {
+        setLoading(false);
       }
-    } catch (error) {
-      console.error('Error loading dictionary:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
-  loadDictionary();
-}, []);
-
-
-
-
+    };
+    loadDictionary();
+  }, []);
 
   // Sync bookmarks to LocalStorage
   const handleToggleBookmark = (word) => {
@@ -124,21 +87,21 @@ export default function App() {
 
   // Handler for searching from virtual keyboard
   const handleKeyboardSearch = async (text) => {
-  setSearchQuery(text);
-  setSelectedCategory('All');
-  setActiveTab('search');
+    setSearchQuery(text);
+    setSelectedCategory('All');
+    setActiveTab('search');
 
-  try {
-    const results = await searchEntries(text);
-    if (results && results.length > 0) {
-      setSelectedWord(results[0]);
-      // Also update the dictionary list to show search results
-      setDictionary(results);
+    try {
+      const results = await searchEntries(text);
+      if (results && results.length > 0) {
+        setSelectedWord(results[0]);
+        // Also update the dictionary list to show search results
+        setDictionary(results);
+      }
+    } catch (error) {
+      console.error('Search failed:', error);
     }
-  } catch (error) {
-    console.error('Search failed:', error);
-  }
-};
+  };
 
   // Filter dictionary based on search query & category filter
   const filteredWords = dictionary.filter((word) => {
@@ -160,8 +123,8 @@ export default function App() {
     } else if (filteredWords.length === 0) {
       setSelectedWord(null);
     }
-  }, [searchQuery, selectedCategory, filteredWords]);
-  
+  }, [searchQuery, selectedCategory, filteredWords, selectedWord]);
+
   // Show loading spinner while fetching data
   if (loading) {
     return (
@@ -175,33 +138,17 @@ export default function App() {
 
   return (
     <div className="app-container">
-      {/* HEADER SECTION*/} 
+      {/* HEADER SECTION */}
       <header className="app-header">
-
-  <div className="brand-section">
-
-    <div className="ema-logo-wrapper">
-
-      <h1 className="ema-logo">
-        ꯏꯃꯥ 
-      </h1>
-
-      <div className="ema-text">
-
-        <span className="ema-lab-name">
-          Emerging Multimedia
-        </span>
-
-        <span className="ema-lab-name">
-          & AI Lab IIT Dharwad
-        </span>
-
-      </div>
-
-    </div>
-
-  </div>
-
+        <div className="brand-section">
+          <div className="ema-logo-wrapper">
+            <h1 className="ema-logo">ꯏꯃꯥ</h1>
+            <div className="ema-text">
+              <span className="ema-lab-name">Emerging Multimedia</span>
+              <span className="ema-lab-name">& AI Lab IIT Dharwad</span>
+            </div>
+          </div>
+        </div>
 
         <div className="header-controls">
           {/* Main Navigation Tabs */}
@@ -264,31 +211,19 @@ export default function App() {
       </header>
 
       <section className="ema-hero">
-  <div className="ema-hero-content">
-
-    <h1>
-      Emerging Multimedia
-      <br />
-      & AI Lab
-    </h1>
-
-    <p>
-      Indian Institute of Technology Dharwad
-    </p>
-
-  </div>
-
-  <div className="dictionary-title">
-    (DICTIONARY)-ꯂꯣꯟꯒꯩ
-  </div>
-
-
-
-    </section>
+        <div className="ema-hero-content">
+          <h1>
+            Emerging Multimedia
+            <br />
+            & AI Lab
+          </h1>
+          <p>Indian Institute of Technology Dharwad</p>
+        </div>
+        <div className="dictionary-title">(DICTIONARY)-ꯂꯣꯟꯒꯩ</div>
+      </section>
 
       {/* MAIN BODY AREA */}
       <main className="main-content">
-        
         {/* TAB 1: SEARCH & DICTIONARY */}
         {activeTab === 'search' && (
           <div className="dictionary-grid">
@@ -324,7 +259,7 @@ export default function App() {
                   <span>Results ({filteredWords.length})</span>
                   <span>Select to inspect</span>
                 </div>
-                
+
                 <div className="word-list-results">
                   {filteredWords.length > 0 ? (
                     filteredWords.map((word) => (
@@ -354,11 +289,11 @@ export default function App() {
 
             {/* Word details inspector panel */}
             {selectedWord && (
-            <WordInspector
-              word={selectedWord}
-              onToggleBookmark={handleToggleBookmark}
-              isBookmarked={selectedWord ? bookmarks.includes(selectedWord.id) : false}
-            />
+              <WordInspector
+                word={selectedWord}
+                onToggleBookmark={handleToggleBookmark}
+                isBookmarked={selectedWord ? bookmarks.includes(selectedWord.id) : false}
+              />
             )}
           </div>
         )}
@@ -417,9 +352,7 @@ export default function App() {
             )}
           </div>
         )}
-
       </main>
-
-     </div> 
+    </div>
   );
 }
