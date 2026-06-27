@@ -22,12 +22,7 @@ window.fetch = function(...args) {
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-<<<<<<< HEAD
-  </StrictMode>
-);
-=======
   </StrictMode>,
 )
 
 console.log("testing");
->>>>>>> cc8d651122406ffbeea1df0b4f8c69124d3da0c6
