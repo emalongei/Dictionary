@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
-import 'dotenv/config';
+import 'dotenv/config'; 
 
 import { connectDB } from './config/db.js';
 import Word from './models/Word.js';
