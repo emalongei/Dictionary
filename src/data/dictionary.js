@@ -12,17 +12,17 @@ export const dictionary = [
     definition: 'A respectful greeting used to say hello, pay respects, or offer salutations to someone.',
     example: {
       english: 'Hello, how are you?',
-      romanized: 'Khurumjari, kamdoubiri?',
-      meitei: 'ꯈꯨꯔꯨꯝꯖꯔꯤ, ꯀꝗꯗꯧꯕꯤꯔꯤ?'
+      romanized: 'Khurumjari, kamdoubiribage?',
+      meitei: 'ꯈꯨꯔꯨꯝꯖꯔꯤ, ꯀꯝꯗꯧꯕꯤꯔꯤꯕꯒꯦ?'
     },
     breakdown: [
       { char: 'ꯈ', name: 'Khou', type: 'Mapum mayek' },
       { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
+      { char: 'ꯔ', name: 'Rai', type: 'Extended Iyek' },
       { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
-      { char: 'ꯖ', name: 'Ja', type: 'Extended Iyek' },
-      { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
+      { char: 'ꯝ', name: 'Mit', type: 'Mapum mayek' },
+      { char: 'ꯖ', name: 'Jil', type: 'Extended Iyek' },
+      { char: 'ꯔ', name: 'Rai', type: 'Extended Iyek' },
       { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
@@ -37,8 +37,8 @@ export const dictionary = [
     definition: 'An expression of gratitude, meaning "I thank you" or "I offer my thanks".',
     example: {
       english: 'Thank you very much for your help.',
-      romanized: 'Mateng pangbagingidamak yamna thagatchari.',
-      meitei: 'ꯃꯇꯦꯡ ꯄꯥꯡꯕꯒꯤꯗꯃꯛ ꯌꯥꯝꯅ ꯊꯥꯒꯠꯆꯔꯤ꯫'
+      romanized: 'Mateng pangbibagidamak yamna thagatchari.',
+      meitei: 'ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯕꯒꯤꯗꯃꯛ ꯌꯥꯝꯅ ꯊꯥꯒꯠꯆꯔꯤ꯫'
     },
     breakdown: [
       { char: 'ꯊ', name: 'Thou', type: 'Mapum mayek' },
@@ -46,7 +46,7 @@ export const dictionary = [
       { char: 'ꯒ', name: 'Gok (voiced)', type: 'Extended Iyek' },
       { char: 'ꯠ', name: 'Til Lonsum', type: 'Lonsum Iyek (Final Consonant /t/)' },
       { char: 'ꯆ', name: 'Chil', type: 'Mapum mayek' },
-      { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
+      { char: 'ꯔ', name: 'Rai', type: 'Extended Iyek' },
       { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
@@ -61,8 +61,8 @@ export const dictionary = [
     definition: 'Affirmative response or agreement, meaning yes.',
     example: {
       english: 'Yes, that is correct.',
-      romanized: 'Hoi, adum achumbani.',
-      meitei: 'ꯍꯣꯏ, ꯑꯗꯨꯝ ꯑꯆꯨꯝꯕꯅꯤ꯫'
+      romanized: 'Hoi, madu achumbani.',
+      meitei: 'ꯍꯣꯏ, ꯃꯗꯨ ꯑꯆꯨꯝꯕꯅꯤ꯫'
     },
     breakdown: [
       { char: 'ꯍ', name: 'Huk', type: 'Mapum mayek' },
@@ -81,8 +81,8 @@ export const dictionary = [
     definition: 'Negative particle or disagreement, indicating "no" or "it is not".',
     example: {
       english: 'No, I did not go.',
-      romanized: 'Natte, ei chatkhihoudre.',
-      meitei: 'ꯅꯠꯇꯦ, ꯑꯩ ꯆꯠꯈꯤꯍꯧꯗ꯭ꯔꯦ꯫'
+      romanized: 'Natte, ei chatkhide.',
+      meitei: 'ꯅꯠꯇꯦ, ꯑꯩ ꯆꯠꯈꯤꯗꯦ꯫'
     },
     breakdown: [
       { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
@@ -95,21 +95,21 @@ export const dictionary = [
     id: 'w5',
     english: 'Friend',
     romanized: 'Marup',
-    meitei: 'ꯃꯔꯨꯄ',
+    meitei: 'ꯃꯔꯨꯞ',
     bengali: 'মরুপ',
     category: 'Everyday',
     pos: 'Noun',
     definition: 'A companion, partner, or associate whom one knows and has a bond of mutual affection with.',
     example: {
       english: 'He is my best friend.',
-      romanized: 'Mahak eigi khwaidegi nungshiba marupni.',
-      meitei: 'ꯃꯍꯥꯛ ꯑꯩꯒꯤ ꯈ꯭ꯋꯥꯏꯗꯦꯒꯤ ꯅꯨꯡꯁꯤꯕ ꯃꯔꯨꯄꯅꯤ꯫'
+      romanized: 'Mahak asi eigi khwaidagi luna tinnaba marupni.',
+      meitei: 'ꯃꯍꯥꯛ ꯑꯩꯒꯤ ꯈ꯭ꯋꯥꯏꯗꯒꯤ ꯂꯨꯅ ꯇꯤꯟꯅꯕ ꯃꯔꯨꯞꯅꯤ꯫'
     },
     breakdown: [
       { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
-      { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
+      { char: 'ꯔ', name: 'Rai', type: 'Extended Iyek' },
       { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯄ', name: 'Pa', type: 'Mapum mayek' }
+      { char: 'ꯞ', name: 'Pa-lonsum', type: 'Mapum mayek' }
     ]
   },
   {
@@ -128,7 +128,7 @@ export const dictionary = [
     },
     breakdown: [
       { char: 'ꯐ', name: 'Pham', type: 'Mapum mayek' },
-      { char: 'ꯖ', name: 'Ja', type: 'Extended Iyek' },
+      { char: 'ꯖ', name: 'Jil', type: 'Extended Iyek' },
       { char: 'ꯩ', name: 'Cheinap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
@@ -165,8 +165,8 @@ export const dictionary = [
     definition: 'A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms.',
     example: {
       english: 'Give me some water to drink.',
-      romanized: 'Thaknaba ising khara thabiyu.',
-      meitei: 'ꯊꯛꯅꯕ ꯏꯁꯤꯡ ꯈꯔꯥ ꯊꯥꯕꯤꯌꯨ꯫'
+      romanized: 'Eingonda thaknaba esing khita piyu.',
+      meitei: 'ꯑꯩꯉꯣꯟꯗ ꯊꯛꯅꯕ ꯏꯁꯤꯡ ꯈꯤꯠꯇ ꯄꯤꯌꯨ꯫'
     },
     breakdown: [
       { char: 'ꯏ', name: 'Ee', type: 'Mapum mayek' },
@@ -186,8 +186,8 @@ export const dictionary = [
     definition: 'Combustion or burning, in which substances combine chemically with oxygen from the air and typically give out bright light, heat, and smoke.',
     example: {
       english: 'The fire is very hot.',
-      romanized: 'Mei asi yamna asaubani.',
-      meitei: 'ꯃꯩ ꯑꯁꯤ ꯌꯥꯝꯅ ꯑꯁꯥꯎꯕꯅꯤ꯫'
+      romanized: 'Mei asi yamna sai.',
+      meitei: 'ꯃꯩ ꯑꯁꯤ ꯌꯥꯝꯅ ꯁꯥꯏ꯫'
     },
     breakdown: [
       { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
@@ -205,8 +205,8 @@ export const dictionary = [
     definition: 'The star around which the earth orbits, representing daylight and the cycle of a day.',
     example: {
       english: 'The sun rises in the east.',
-      romanized: 'Numit nongpokta thok-i.',
-      meitei: 'ꯅꯨꯃꯤꯠ ꯅꯣꯡꯄꯣꯛꯇ ꯊꯣꯛꯏ꯫'
+      romanized: 'Nongpokta numit thok-i.',
+      meitei: 'ꯅꯣꯡꯄꯣꯛꯇ ꯅꯨꯃꯤꯠ ꯊꯣꯛꯏ꯫'
     },
     breakdown: [
       { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
@@ -226,9 +226,9 @@ export const dictionary = [
     pos: 'Noun',
     definition: 'The natural satellite of the earth, visible by reflected sunlight; also signifies a calendar month.',
     example: {
-      english: 'The moon is shining bright tonight.',
-      romanized: 'Ngaasigi thahanba yamna mangal chei.',
-      meitei: 'ꯉꯥꯁꯤꯒꯤ ꯊꯥꯍꯟꯕ ꯌꯥꯝꯅ ꯃꯉꯥꯜ ꯆꯩ꯫'
+      english: 'The moon is very beautiful tonight.',
+      romanized: 'Tha se ngasi di yamna phajei.',
+      meitei: 'ꯊꯥꯁꯦ ꯉꯁꯤꯗꯤ ꯌꯥꯝꯅ ꯐꯖꯩ꯫'
     },
     breakdown: [
       { char: 'ꯊ', name: 'Thou', type: 'Mapum mayek' },
@@ -246,8 +246,8 @@ export const dictionary = [
     definition: 'An adult male human being; also refers generally to male species.',
     example: {
       english: 'That man is a doctor.',
-      romanized: 'Nupa adu daktar amani.',
-      meitei: 'ꯅꯨꯄꯥ ꯑꯗꯨ ꯗꯥꯛꯇꯔ ꯑꯃꯅꯤ꯫'
+      romanized: 'Nupa adu doctor amani.',
+      meitei: 'ꯅꯨꯄꯥ ꯑꯗꯨ ꯗꯣꯛꯇꯔ ꯑꯃꯅꯤ꯫'
     },
     breakdown: [
       { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
@@ -267,8 +267,8 @@ export const dictionary = [
     definition: 'An adult female human being; also refers generally to female species.',
     example: {
       english: 'She is a hard-working woman.',
-      romanized: 'Mahak yamna hotnaba nupini.',
-      meitei: 'ꯃꯍꯥꯛ ꯌꯥꯝꯅ ꯍꯣꯠꯅꯕ ꯅꯨꯄꯤꯅꯤ꯫'
+      romanized: 'Mahak yamna hotnaba kanba nupi ni.',
+      meitei: 'ꯃꯍꯥꯛ ꯌꯥꯝꯅ ꯍꯣꯠꯅꯕ ꯀꯟꯕ ꯅꯨꯄꯤꯅꯤ꯫'
     },
     breakdown: [
       { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
@@ -280,23 +280,23 @@ export const dictionary = [
   {
     id: 'w14',
     english: 'River',
-    romanized: 'Turen',
-    meitei: 'ꯇꯨꯔꯦꯟ',
+    romanized: 'Turel',
+    meitei: 'ꯇꯨꯔꯦꯜ',
     bengali: 'তুরেন',
     category: 'Nature',
     pos: 'Noun',
     definition: 'A large natural stream of water flowing in a channel to the sea, a lake, or another river.',
     example: {
       english: 'The Imphal River flows through the city.',
-      romanized: 'Imphal turen sahar asigi mayolda chen-i.',
-      meitei: 'ꯏꯝꯐꯥꯜ ꯇꯨꯔꯦꯟ ꯁꯍꯔ ꯑꯁꯤꯒꯤ ꯃꯌꯣꯜꯗ ꯆꯦꯟꯏ꯫'
+      romanized: 'Imphal turel sahar asigi mayolda chenli.',
+      meitei: 'ꯏꯝꯐꯥꯜ ꯇꯨꯔꯦꯜꯅ ꯁꯍꯔ ꯑꯁꯤꯒꯤ ꯃꯌꯣꯜꯗ ꯆꯦꯜꯂꯤ꯫'
     },
     breakdown: [
       { char: 'ꯇ', name: 'Til', type: 'Mapum mayek' },
       { char: 'ꯨ', name: 'oonap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
+      { char: 'ꯔ', name: 'Rai', type: 'Extended Iyek' },
       { char: 'ꯦ', name: 'yenap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯟ', name: 'Na Lonsum', type: 'Lonsum Iyek (Final Consonant /n/)' }
+      { char: 'ꯜ', name: 'Lai Lonsum', type: 'Lonsum mayek (Final Consonant /n/)' }
     ]
   },
   {
@@ -310,8 +310,8 @@ export const dictionary = [
     definition: 'A large natural elevation of the earth\'s surface rising abruptly from the surrounding level; a hill.',
     example: {
       english: 'The mountains of Manipur are beautiful.',
-      romanized: 'Manipur gi ching singyamna phajei.',
-      meitei: 'ꯃꯅꯤꯄꯨꯔ ꯒꯤ ꯆꯤꯡ ꯁꯤꯡꯌꯥꯝꯅ ꯐꯖꯩ꯫'
+      romanized: 'Manipur gi chingsang sing asi yamna phajei.',
+      meitei: 'ꯃꯅꯤꯄꯨꯔ ꯒꯤ ꯆꯤꯡꯁꯥꯡ ꯁꯤꯡ ꯑꯁꯤ ꯌꯥꯝꯅ ꯐꯖꯩ꯫'
     },
     breakdown: [
       { char: 'ꯆ', name: 'Chil', type: 'Mapum mayek' },
@@ -330,8 +330,8 @@ export const dictionary = [
     definition: 'A building for human habitation, especially one that is lived in by a family.',
     example: {
       english: 'This is my house.',
-      romanized: 'Asi eigi yumni.',
-      meitei: 'ꯑꯁꯤ ꯑꯩꯒꯤ ꯌꯨꯝꯅꯤ꯫'
+      romanized: 'Masi eigi yumni.',
+      meitei: 'ꯃꯁꯤ ꯑꯩꯒꯤ ꯌꯨꯝꯅꯤ꯫'
     },
     breakdown: [
       { char: 'ꯌ', name: 'Yang', type: 'Mapum mayek' },
@@ -350,8 +350,8 @@ export const dictionary = [
     definition: 'Any nutritious substance that people or animals eat or drink, or that plants absorb, to maintain life and growth.',
     example: {
       english: 'We need healthy food.',
-      romanized: 'Eikhoigi haokaba chinjak chang-i.',
-      meitei: 'ꯑꯩꯈꯣꯏꯒꯤ ꯍꯥꯎꯀꯕ ꯆꯤꯟꯖꯥꯛ ꯆꯪꯏ꯫'
+      romanized: 'Eikhoina Afaba chinjak chaba mathou tai.',
+      meitei: 'ꯑꯩꯈꯣꯏꯅ ꯑꯐꯕ ꯆꯤꯟꯖꯥꯛ ꯆꯥꯕ ꯃꯊꯧ ꯇꯥꯏ꯫'
     },
     breakdown: [
       { char: 'ꯆ', name: 'Chil', type: 'Mapum mayek' },
@@ -373,7 +373,7 @@ export const dictionary = [
     definition: 'The seed-bearing part of a plant, consisting of reproductive organs that are typically surrounded by a brightly colored corolla.',
     example: {
       english: 'The garden has many flowers.',
-      romanized: 'Lel-kol asida lei yamna lei.',
+      romanized: 'Leikol asida lei yamna lei.',
       meitei: 'ꯂꯩꯀꯣꯜ ꯑꯁꯤꯗ ꯂꯩ ꯌꯥꯝꯅ ꯂꯩ꯫'
     },
     breakdown: [
@@ -411,12 +411,12 @@ export const dictionary = [
     definition: 'Used to refer to the person or people that the speaker is addressing.',
     example: {
       english: 'Where are you going?',
-      romanized: 'Nang kadaida chatlige?',
-      meitei: 'ꯅꯪ ꯀꯗꯥꯏꯗ ꯆꯠꯂꯤꯒꯦ?'
+      romanized: 'Nang kadaida chatlino?',
+      meitei: 'ꯅꯪ ꯀꯗꯥꯏꯗ ꯆꯠꯂꯤꯅꯣ?'
     },
     breakdown: [
       { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
-      { char: 'ꯪ', name: 'Nung', type: 'Cheitap (Nasalization dot)' }
+      { char: 'ꯪ', name: 'Nunglonsum', type: 'Cheitap (Nasalization dot)' }
     ]
   },
   {
@@ -430,8 +430,8 @@ export const dictionary = [
     definition: 'The number 1 or a single unit.',
     example: {
       english: 'Give me one book.',
-      romanized: 'Eigi lairik ama piyu.',
-      meitei: 'ꯑꯩꯒꯤ ꯂꯥꯏꯔꯤꯛ ꯑꯃꯥ ꯄꯤꯌꯨ꯫'
+      romanized: 'Eingonda lairik ama piyu.',
+      meitei: 'ꯑꯩꯉꯣꯟꯗ ꯂꯥꯏꯔꯤꯛ ꯑꯃꯥ ꯄꯤꯌꯨ꯫'
     },
     breakdown: [
       { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
@@ -450,8 +450,8 @@ export const dictionary = [
     definition: 'The number 2 or a couple of units.',
     example: {
       english: 'I have two pens.',
-      romanized: 'Eigi khut-lai ani lei.',
-      meitei: 'ꯑꯩꯒꯤ ꯈꯨꯠꯂꯥꯏ ꯑꯅꯤ ꯂꯩ꯫'
+      romanized: 'Eigi kolom ani lei.',
+      meitei: 'ꯑꯩꯒꯤ ꯀꯣꯂꯣꯝ ꯑꯅꯤ ꯂꯩ꯫'
     },
     breakdown: [
       { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
@@ -469,9 +469,9 @@ export const dictionary = [
     pos: 'Noun / Numeral',
     definition: 'The number 3.',
     example: {
-      english: 'There are three cups.',
-      romanized: 'Adukom ahum lei.',
-      meitei: 'ꯑꯗꯨꯀꯣꯝ ꯑꯍꯨꯝ ꯂꯩ꯫'
+      english: 'I have three pens.',
+      romanized: 'Eigi kolom ahum lei.',
+      meitei: 'ꯑꯩꯒꯤ ꯀꯣꯂꯣꯝ ꯑꯍꯨꯝ ꯂꯩ꯫'
     },
     breakdown: [
       { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
@@ -490,13 +490,13 @@ export const dictionary = [
     pos: 'Noun / Numeral',
     definition: 'The number 4.',
     example: {
-      english: 'Four chairs are in the room.',
-      romanized: 'Ka asida chauki mari lei.',
-      meitei: 'ꯀꯥ ꯑꯁꯤꯗ ꯆꯧꯀꯤ ꯃꯔꯤ ꯂꯩ꯫'
+      english: 'I have four apples.',
+      romanized: 'Eigi sem mari lei.',
+      meitei: 'ꯑꯩꯒꯤ ꯁꯦꯝ ꯃꯔꯤ ꯂꯩ꯫'
     },
     breakdown: [
       { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
-      { char: 'ꯔ', name: 'Ra', type: 'Extended Iyek' },
+      { char: 'ꯔ', name: 'Rai', type: 'Extended Iyek' },
       { char: 'ꯤ', name: 'Inap', type: 'Cheitap (Vowel Modifier)' }
     ]
   },
@@ -510,9 +510,9 @@ export const dictionary = [
     pos: 'Noun / Numeral',
     definition: 'The number 5.',
     example: {
-      english: 'Five fingers are on a hand.',
-      romanized: 'Khutni khutyen manga lei.',
-      meitei: 'ꯈꯨꯠꯅꯤ ꯈꯨꯠꯌꯦꯟ ꯃꯉꯥ ꯂꯩ꯫'
+      english: 'Humans have five fingers.',
+      romanized: 'Meeoibagi khutsa manga lei.',
+      meitei: 'ꯃꯤꯑꯣꯏꯕꯒꯤ ꯈꯨꯠꯁꯥ ꯃꯉꯥ ꯂꯩ꯫'
     },
     breakdown: [
       { char: 'ꯃ', name: 'Mit', type: 'Mapum mayek' },
@@ -571,8 +571,8 @@ export const dictionary = [
     definition: 'The region of the atmosphere and outer space seen from the earth.',
     example: {
       english: 'The sky is blue today.',
-      romanized: 'Atiya asi ngasi yamna ningshang-i.',
-      meitei: 'ꯑꯇꯤꯌꯥ ꯑꯁꯤ ꯉꯥꯁꯤ ꯌꯥꯝꯅ ꯅꯤꯡꯁꯪꯏ꯫'
+      romanized: 'Atiya se ngasi di higok machu oi.',
+      meitei: 'ꯑꯇꯤꯌꯥ ꯁꯦ ꯉꯁꯤꯗꯤ ꯍꯤꯒꯣꯛ ꯃꯆꯨ ꯑꯣꯏ꯫'
     },
     breakdown: [
       { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
@@ -593,8 +593,8 @@ export const dictionary = [
     definition: 'The perceptible natural movement of the air, especially in the form of a current of air blowing through the environment.',
     example: {
       english: 'Cool wind is blowing.',
-      romanized: 'Yingba nungshit ama thongli.',
-      meitei: 'ꯌꯤꯡꯕ ꯅꯨꯡꯁꯤꯠ ꯑꯃꯥ ꯊꯣꯡꯂꯤ꯫'
+      romanized: 'Nungshit ayingba sitli.',
+      meitei: 'ꯅꯨꯡꯁꯤꯠ ꯑꯏꯪꯕ ꯁꯤꯠꯂꯤ꯫'
     },
     breakdown: [
       { char: 'ꯅ', name: 'Na', type: 'Mapum mayek' },
@@ -616,13 +616,13 @@ export const dictionary = [
     definition: 'A person who teaches, especially in a school or college.',
     example: {
       english: 'Our teacher explains very well.',
-      romanized: 'Eikhoigi ojana khanghanba yamna phajei.',
-      meitei: 'ꯑꯩꯈꯣꯏꯒꯤ ꯑꯣꯖꯥꯅ ꯈꯪꯍꯟꯕ ꯌꯥꯝꯅ ꯐꯖꯩ꯫'
+      romanized: 'Eikhoigi ojana yamna fajnna sandokna takpi.',
+      meitei: 'ꯑꯩꯈꯣꯏꯒꯤ ꯑꯣꯖꯥꯅ ꯌꯥꯝꯅ ꯐꯖꯟꯅ ꯁꯟꯗꯣꯛꯅ ꯇꯥꯛꯄꯤ꯫'
     },
     breakdown: [
       { char: 'ꯑ', name: 'Atiya', type: 'Mapum mayek' },
       { char: 'ꯣ', name: 'Onap', type: 'Cheitap (Vowel Modifier)' },
-      { char: 'ꯖ', name: 'Ja', type: 'Extended Iyek' },
+      { char: 'ꯖ', name: 'Jil', type: 'Extended Iyek' },
       { char: 'ꯥ', name: 'Aatap', type: 'Cheitap (Vowel Modifier)' }
     ]
   }
