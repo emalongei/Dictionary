@@ -1,42 +1,18 @@
+// src/main.jsx
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
 // ============================================
-// 🕵️ INTERCEPT ALL FETCH CALLS TO FIND LOCALHOST:8000
+// 🕵️ DEBUG: LOG ALL FETCH CALLS
 // ============================================
 
-// Save reference to original fetch
 const originalFetch = window.fetch;
-
-// Override fetch to intercept all calls
 window.fetch = function(...args) {
   const url = args[0];
-  
-  // Log EVERY fetch call
   console.log('🔍 FETCH CALLED WITH URL:', url);
-  
-  // If it's localhost:8000, show where it's coming from
-  if (typeof url === 'string' && url.includes('localhost:8000')) {
-    console.error('🚨 FOUND localhost:8000 REQUEST!');
-    console.error('URL:', url);
-    console.trace('📞 This is where the request is coming from:');
-  }
-  
-  // Call the original fetch
   return originalFetch.apply(this, args);
-};
-
-// Also intercept XMLHttpRequest (just in case)
-const originalXHROpen = XMLHttpRequest.prototype.open;
-XMLHttpRequest.prototype.open = function(method, url, ...rest) {
-  console.log('🔍 XHR CALL:', method, url);
-  if (typeof url === 'string' && url.includes('localhost:8000')) {
-    console.error('🚨 XHR to localhost:8000!');
-    console.trace('📞 Stack trace:');
-  }
-  return originalXHROpen.call(this, method, url, ...rest);
 };
 
 // ============================================
