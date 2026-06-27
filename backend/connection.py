@@ -32,7 +32,32 @@ except Exception as e:
     raise
 
 db = client[db_name]
+
+# =============================================
+# COLLECTIONS
+# =============================================
+
+# Primary collection (translations)
 collection = db[collection_name]
 
-print(f"Connected to database: {db.name}")
-print(f"Using collection: {collection.name}")
+# Alphabet collection (already has data)
+collection_alphabet = db["Alphabet"]  # 👈 Just add this line
+
+# =============================================
+# PRINT STATUS
+# =============================================
+
+print(f"✅ Connected to database: {db.name}")
+print(f"📚 Collections:")
+print(f"   - {collection.name} (translations)")
+print(f"   - {collection_alphabet.name} (alphabet)")
+
+# Optional: Show count of documents
+try:
+    trans_count = collection.count_documents({})
+    alpha_count = collection_alphabet.count_documents({})
+    print(f"📊 Document counts:")
+    print(f"   - Translations: {trans_count}")
+    print(f"   - Alphabet: {alpha_count}")
+except Exception as e:
+    print(f"⚠️ Could not get document counts: {e}")
