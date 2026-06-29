@@ -12,7 +12,7 @@ app: FastAPI = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],  # React dev servers
+    allow_origins=["https://emalongei.vercel.app","https://emalongei-cud33kpn1-emalongei.vercel.app/","http://localhost:5173", "http://localhost:3000"],  # React dev servers
     allow_credentials=True,
     allow_methods=["*"],  # Allow all methods (GET, POST, PUT, DELETE)
     allow_headers=["*"],  # Allow all headers
