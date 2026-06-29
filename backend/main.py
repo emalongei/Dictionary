@@ -12,7 +12,7 @@ app: FastAPI = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://emalongei.vercel.app","https://emalongei-fzsj7kbad-emalongei.vercel.app","http://localhost:5173", "http://localhost:3000","https://emalongei-m9v4y54am-emalongei.vercel.app","https://emalongei1-hpjl8d13n-emalongei.vercel.app"],  # React dev servers
+    allow_origins=["http://localhost:5173", "http://localhost:3000"],  # React dev servers
     allow_credentials=True,
     allow_methods=["*"],  # Allow all methods (GET, POST, PUT, DELETE)
     allow_headers=["*"],  # Allow all headers
@@ -118,6 +118,11 @@ async def delete_entry(entry_id: str) -> dict[str, Any]:
         raise HTTPException(status_code=500, detail=f"Delete failed: {str(e)}")
 
 router.add_api_route("/entries/{entry_id}", delete_entry, methods=["DELETE"])  # ✅ Right here
+
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy"}
+
 
 
 # ---------- Include router ----------
